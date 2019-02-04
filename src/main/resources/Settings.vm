@@ -1,0 +1,25 @@
+<html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "css/Settings.css">
+</head>
+  <body>
+    <header id="header1">Settings</header>
+    <div id="border1"></div>
+    <table id="table1" align="center">
+      <tr>
+      <td><a href="/payment" class="nav-link">Payment</a></td>
+      </tr>
+      <tr>
+        <td> <a href="/address" class="nav-link">Address</a></td>
+      </tr>
+      <tr>
+        <td><a href="/order" class="nav-link">Order</a></td>
+      </tr>
+      <tr>
+        <td><a href="/logout" class="nav-link">Log Out</a></td>
+      <br></br>
+        
+      
+    </table>
+  </body>
+</html>

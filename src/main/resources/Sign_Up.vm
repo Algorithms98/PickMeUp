@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "css/Sign_In.css">
+	<link rel = "stylesheet" type = "text/css" href = "css/Sign_Up.css">
+</head>
+
+<body>
+
+		 <p align = 'center' style="font-size: 40px;"> Pick Me Up  </p> 
+
+		
+		<!-- This is the Sign up form -->
+				<form action="/signup" method="POST">
+						<p style="color:#d4d4dc; font-size: 20px;" >Create An Account </p>
+						Email:<br>
+						<input type = 'text' name = 'email'><br>
+						Password:<br>
+						<input type = 'password' name = 'password'><br>
+						Confirm:<br>
+						<input type = 'password' name = 'password_confirm'><br>
+						Phone:<br>
+						<input type = 'text' name = 'phone'><br>
+						<input type = 'submit' value = 'Sign Up'>
+				</form>
+
+</body>
+</html>
